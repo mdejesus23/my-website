@@ -1,4 +1,5 @@
 import styles from "./Project.module.css";
+import TechList from "./TechList";
 
 const projectList = [
   {
@@ -9,14 +10,7 @@ const projectList = [
     description: `
       I have developed a comprehensive preparation app for our church organization. This full-stack web application is built using Node.js, with Express serving as the backend framework, MongoDB for data storage, EJS templates for rendering HTML documents in response to client requests, and CSS for styling. Key functionalities include user signup and login features, where I've incorporated Express-session to store session data in the database and utilize sessionId in the browser's cookie. Additionally, I've implemented Content Security Policy (CSP) using the Node Helmet package and included CSRF protection to enhance the overall security of the website, and many more.. You can watch the video for demo or login using this account.. test123@gmail.com | pass: Test123 | theme passcode: asdf`,
     sourceCode: "https://github.com/mdejesus23/preparation-app",
-    techStack: [
-      "html",
-      "css",
-      "javascript",
-      "nodejs",
-      "mongodb",
-      "ejs template engine",
-    ],
+    techStack: ["html", "css", "javascript", "nodejs", "mongodb"],
     videoDemo:
       "https://www.loom.com/share/24b8f9eb7d6f4a0f893e6293056aad2b?sid=3cb414ce-367d-4c39-9e6c-d02360e9ecb1",
   },
@@ -60,18 +54,33 @@ function Project() {
         {projectList.map((proj) => (
           <li>
             <h3>{proj.name}</h3>
+
+            <TechList techStack={proj.techStack} />
+
             <p>{proj.description}</p>
-            <a className="" href={proj.sourceCode}>
-              Code
-            </a>
-            <a className="" href={proj.link}>
-              Live
-            </a>
-            {proj.videoDemo && (
-              <a className="" href={proj.videoDemo}>
-                Demo
+            <div className={styles.projectController}>
+              <a
+                className=""
+                href={proj.sourceCode}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Code
               </a>
-            )}
+              <a className="" href={proj.link} target="_blank" rel="noreferrer">
+                Live
+              </a>
+              {proj.videoDemo && (
+                <a
+                  className=""
+                  href={proj.videoDemo}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Demo
+                </a>
+              )}
+            </div>
           </li>
         ))}
       </div>

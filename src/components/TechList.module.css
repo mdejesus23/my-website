@@ -1,0 +1,16 @@
+.techList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 1rem 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--bg-color02);
+  font-size: 1.6rem;
+}
+
+.techList .tech {
+  color: var(--text-color03);
+  color: var(--text-color03);
+}

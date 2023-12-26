@@ -39,7 +39,7 @@ function Techstack() {
   return (
     <div className={styles.techStack}>
       {techStack.map((tech, ind) => (
-        <li key={ind}>{tech.name}</li>
+        <li key={ind}>⭐ {tech.name}</li>
       ))}
     </div>
   );

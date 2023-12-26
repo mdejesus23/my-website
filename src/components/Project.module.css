@@ -4,6 +4,7 @@
   height: 100%;
   width: 100%;
   text-align: center;
+  padding: 1rem 0;
 }
 
 .projectGrid {
@@ -11,26 +12,64 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  column-gap: 2rem;
+  row-gap: 4rem;
 
   width: 80%;
-  margin: 2rem auto;
+  margin: 4rem auto;
 }
 
 .projectGrid li {
   height: 100%;
   min-height: 35rem;
-  max-width: 30rem;
+  max-width: 40rem;
   margin: 0 auto;
   border-radius: 8px;
   border: 1px solid var(--bg-color03);
   background-color: var(--bg-color01);
   color: var(--text-color01);
+  padding: 1rem 0 5rem 0;
 
   transition: box-shadow 0.3s;
   box-shadow: 8px 5px var(--bg-color03);
+  position: relative;
 }
 
 .projectGrid li:hover {
   box-shadow: none;
+}
+
+.projectGrid h3 {
+  margin-bottom: 2rem;
+}
+
+.projectGrid p {
+  max-width: 90%;
+  margin: 1rem auto;
+  text-align: justify;
+  overflow-wrap: break-word;
+  line-height: 1.4;
+}
+
+.projectController {
+  margin: 1.5rem auto;
+  width: 60%;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projectController a {
+  font-size: 1.8rem;
+}
+
+.projectController a:hover {
+  color: var(--text-color02);
 }

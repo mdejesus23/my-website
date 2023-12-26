@@ -1,0 +1,77 @@
+.contact {
+  background-color: var(--bg-color01);
+  height: 90vh;
+  width: 100%;
+  clip-path: polygon(0 22%, 100% 0%, 100% 100%, 0 100%);
+
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact p {
+  text-align: center;
+  max-width: 70%;
+  margin: 2rem auto;
+  font-size: 1.6rem;
+}
+
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 60rem;
+}
+
+.contactForm div {
+  min-width: 40rem;
+  width: 70%;
+  border: none;
+}
+
+.invalid input {
+  border: 1px solid red;
+  background-color: rgb(250, 164, 157);
+}
+
+.formControl button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.8rem 1.5rem;
+  font-size: 1.6rem;
+  border-radius: 10px;
+  background-color: var(--bg-color02);
+  color: var(--text-color03);
+  border: none;
+  cursor: pointer;
+
+  box-shadow: 0.7rem 0.4rem 0.4rem rgb(56, 51, 51);
+  transition: box-shadow 0.3s;
+}
+
+.formControl button:hover {
+  box-shadow: none;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: #ccc;
+  color: #ada9a9;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
