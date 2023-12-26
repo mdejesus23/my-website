@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Melnard">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+:root {
+	--bg-color01: rgb(242, 223, 170); 
+	--bg-color02: rgb(184, 13, 33); 
+	--bg-color03: rgb(36, 34, 28); 
+	--text-color01: rgb(184, 13, 33); 
+	--text-color02: rgb(36, 34, 28); 
+	--text-color03: rgb(250, 250, 245); 
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+html {
+
+	font-size: 62.5%;
+}
+
+@media(max-width: 900px) {
+
+	html {
+		font-size: 55%;
+	}
+}
+
+@media(max-width: 580px) {
+
+	html {
+		font-size: 50%;
+	}
+}
+
+body {
+	background-color: rgb(252, 252, 252);
+}
+
+a {
+	text-decoration: none;
+	color: var(--text-color01);
+}
+
+h2 {
+	margin: 2rem auto;
+	font-size: 4.5rem;
+	text-align: center;
+}
+
+p {
+	font-size: 1.6rem;
+}
+
+input, textarea {
+	width: 100%;
+	padding: 1rem 1.5rem;
+	border-radius: 5px;
+
+	border: none;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: 1.5rem 2rem;
+	font-size: 2rem;
+	font-weight: bold;
+	border-radius: 2.5rem;
+	background-color: var(--bg-color02);
+	color: var(--text-color03);
+	box-shadow: 0.7rem 0.4rem 0.4rem rgb(56, 51, 51);
+	cursor: pointer;
+	transition: box-shadow 0.3s;
+}
+
+.btn:hover {
+	box-shadow: none;
+}
+
+.main-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 5rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--bg-color01);
+	padding: 0 1.6rem;
+
+	z-index: 99;
+	
+	
+}
+
+.logo {
+	font-size: 3.5rem;
+	font-weight: bold;
+	color: var(--text-color01);
+
+}
+
+.nav-list {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 1.5rem;
+	
+}
+
+.nav-list li {
+	padding: 0.5rem 1rem;
+	margin-right: 10px;
+	cursor: pointer;
+	transition: color 0.15s;
+	font-size: 1.6rem;
+	color: var(--text-color02);
+}
+
+.nav-list li a {
+	
+	color: var(--text-color02);
+}
+
+
+.nav-list li a:hover,
+.nav-list li a:active {
+	color: var(--text-color01);
+	
+	
+}
+
+.nav-list li:last-child {
+	
+	
+}
+
+.container {
+	background-color: var(--bg-color01);
+	height: 90vh;
+	width: 100%;
+	margin-top: 5rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 5rem;
+
+
+	clip-path: polygon(0 0, 100% 0%, 100% 78%, 0 100%);
+}
+
+.hero-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 3rem;
+
+	margin-top: -10rem;
+	
+}
+
+.mobile-hero-grid {
+	display: none;
+	
+	
+}
+
+@media(max-width: 780px) {
+
+	.hero-grid {
+		display: none;
+	}
+
+	.mobile-hero-grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		row-gap: 3rem;
+
+		margin-top: -10rem;
+	}
+
+	.mobile-grid-item2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		row-gap: 2rem;
+	}
+
+	.mobile-hero-grid-item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.mobile-profile-pic {
+		width: 20rem;
+		height: 20rem;
+		border-radius: 50%;
+		background-color: var(--bg-color02);
+		transition: box-shadow 0.3s;
+		box-shadow: 0.7rem 0.4rem 0.4rem rgb(56, 51, 51);	
+	}
+
+	.container h1{
+		color: var(--text-color02);
+		font-size: 2rem;
+		text-align: center;
+	}
+}
+
+.hero-grid-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid-item1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 2rem;
+}
+
+
+
+.profile-pic {
+	width: 30rem;
+	height: 30rem;
+	border-radius: 50%;
+	background-color: var(--bg-color02);
+	transition: box-shadow 0.3s;
+	box-shadow: 0.7rem 0.4rem 0.4rem rgb(56, 51, 51);	
+}
+
+.profile-pic:hover {
+	
+}
+
+.container h1{
+	color: var(--text-color02);
+	font-size: 3rem;
+	text-align: center;
+}
+
+.container span{
+	color: var(--text-color01);
+	font-size: 4rem;
+}
+
+.btn-subscribe {
+
+	background-color: red;
+	color: white;
+	border: none;
+	height: 36px;
+	width: 105px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-right: 8px;
+	transition: opacity 0.15s;
+	display: block;
+	margin-bottom: 15px;
+	
+}
+	.btn-subscribe:hover {
+	opacity: 0.6;
+}
+
+.tech-container {
+	width: 100%;
+	margin: 0 auto;
+	background-color: var(--bg-color03);
+	padding: 1rem 4rem;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.tech__icon {
+	color: var(--text-color03);
+	
+}
+
+
+
+.sec-1 {
+	background-color: white;
+	min-height: 90vh;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+
+	// display: flex;
+	// flex-direction: column;
+	// justify-content: center;
+	// align-items: center;
+}
+
+
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 1rem;
+	height: 70%;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 1.6rem;
+	
+}
+
+@media(max-width: 700px) {
+	.grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		row-gap: 2rem;
+		height: 70%;
+		width: 80%;
+		margin: 0 auto;
+		font-size: 1.6rem;
+	
+	}
+
+	.grid-content {
+		background-color: var(--bg-color01);
+		order: 2px solid var(--bg-color03);
+		border-radius: 1rem;
+		max-height: 45rem;
+		height: 45rem;
+		max-width: 40rem;
+
+		margin: 0 auto;
+	
+	}
+	
+}
+
+.grid-content {
+	background-color: var(--bg-color01);
+	border: 2px solid var(--bg-color03);
+	border-radius: 1rem;
+	max-height: 45rem;
+	height: 45rem;
+	
+}
+
+.sec-2 {
+	background-color: var(--bg-color01);
+	height: 90vh;
+	width: 100%;
+	clip-path: polygon(0 0, 100% 0%, 100% 78%, 0 100%);
+}
+
+.sec-3 {
+	background-color: var(--bg-color01);
+	height: 90vh;
+	width: 100%;
+	clip-path: polygon(0 22%, 100% 0%, 100% 100%, 0 100%);
+
+	padding-top: 10rem;
+}
+
+.sec-3 h2, p {
+	text-align: center;
+}
+
+footer {
+	height: 6rem;
+	background-color: var(--bg-color03);
+	color: var(--text-color03);
+	font-size: 1.6rem;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 2rem;
+
+	margin: 2rem auto;
+	width: 100%;
+	max-width: 60rem;
+	
+	
+}
+
+.contact-form div {
+	min-width: 40rem;
+	width: 70%;
+	border: none;
+	
+	
+}
+
+
+
+
+
+
+</style>
+
+</head>
+<body>
+
+<nav  class="main-nav">
+	<div class="logo">MDJ</div>
+	<ul class="nav-list">
+		<li><a href="#home">Home</a></li>
+		<li><a href="#portfolio">Portfolio</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+</nav>
+
+<section id="home" class="hero container">
+	<div class="hero-grid">
+		<div class="hero-grid-item grid-item1">
+			<h1>
+			Hi I'm <span>Melnard</span>
+			<br>
+			A Web Developer by <span>Heart</span>
+			</h1>
+			<a href="#contact" class="btn">Contact Me!</a>
+		</div>
+		<div class="hero-grid-item">
+			<div class="profile-pic"></div>
+		</div>
+	</div>
+
+	<div class="mobile-hero-grid">
+
+		<div class="mobile-hero-grid-item">
+			<div class="mobile-profile-pic"></div>
+		</div>
+
+		<div class="mobile-hero-grid-item mobile-grid-item2">
+			<h1>
+			Hi I'm <span>Melnard</span>
+			<br>
+			A Web Developer by <span>Heart</span>
+			</h1>
+			<a href="#contact" class="btn">Contact Me!</a>
+		</div>
+		
+	</div>
+	
+	<div class="tech-container">
+		<div class="tech__icon">HTML</div>
+		<div class="tech__icon">CSS</div>
+		<div class="tech__icon">JAVASCRIPT</div>
+		<div class="tech__icon">REACT</div>
+		<div class="tech__icon">NODE JS</div>
+		<div class="tech__icon">MONGODB</div>
+		<div class="tech__icon">SASS</div>
+		<div class="tech__icon">GIT</div>
+		<div class="tech__icon">EXPRESS</div>
+	</div>	
+</section>
+
+<section id="portfolio" class="sec-1">
+	<h2>Portfolio<h2>
+	<div class="grid">
+		<div class="grid-content">
+			<h3>Project1</h3>
+			<div class="project__img">image here</div>
+			<div class="project__desc">
+				<p>This is just a sample project description. This is just a sample project description. This is just a sample project description. This is just a sample project description.</p>
+			</div>
+		</div>
+
+		<div class="grid-content">
+			<h3>Project1</h3>
+			<div class="project__img">image here</div>
+			<div class="project__desc">
+				<p>This is just a sample project description. This is just a sample project description. This is just a sample project description. This is just a sample project description.</p>
+			</div>
+		</div>
+		
+		<div class="grid-content">
+			<h3>Project1</h3>
+			<div class="project__img">image here</div>
+			<div class="project__desc">
+				<p>This is just a sample project description. This is just a sample project description. This is just a sample project description. This is just a sample project description.</p>
+			</div>
+		</div>
+		
+	</div>
+</section>
+
+
+<section id="contact" class="sec-3">
+	<h2>Contact</h2>
+	<p>Please feel free to drop me a message for product inquiries!</p>
+	<form class="contact-form">
+		<div>
+			
+			<input placeholder="Name" type="text"/>
+		</div>
+
+		<div>
+			
+			<input placeholder="Email" type="text"/>
+		</div>
+
+		<div>
+			
+			<input placeholder="Subject" type="text"/>
+		</div>
+
+		<div>
+			
+			<textarea placeholder="Your Message" id="message" name="message" rows="6"></textarea>
+		</div>
+		
+		
+	</form>
+</section>
+
+<footer>
+
+	<p>&copy; Copyrights || allrights reserved</p>
+	
+</footer>
+	
+
+</body>
+</html>

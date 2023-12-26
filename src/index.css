@@ -1,0 +1,88 @@
+/* These CSS variables are global, so they are available in all CSS modules */
+:root {
+  --bg-color01: rgb(242, 223, 170); /*beige*/
+  --bg-color02: rgb(184, 13, 33); /*red*/
+  --bg-color03: rgb(36, 34, 28); /*charcoal*/
+  --bg-color04: rgb(250, 250, 245); /*white gray*/
+
+  --text-color01: rgb(36, 34, 28); /*charcoal*/
+  --text-color02: rgb(184, 13, 33); /*red*/
+  --text-color03: rgb(250, 250, 245); /*white gray*/
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(252, 252, 252);
+  color: var(--text-color01);
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color01);
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+li {
+  list-style: none;
+}
+
+label {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem 1.2rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1.5rem 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 2.5rem;
+  background-color: var(--bg-color02);
+  color: var(--text-color03);
+  box-shadow: 0.7rem 0.4rem 0.4rem rgb(56, 51, 51);
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.btn:hover {
+  box-shadow: none;
+}

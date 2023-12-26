@@ -1,0 +1,15 @@
+.techStack {
+  width: 100%;
+  background-color: var(--bg-color03);
+  padding: 1rem 2.5rem;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.techStack li {
+  font-size: 2rem;
+  text-transform: uppercase;
+}

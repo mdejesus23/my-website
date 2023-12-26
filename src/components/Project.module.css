@@ -1,0 +1,36 @@
+.projectSection {
+  background-color: white;
+  min-height: 90vh;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.projectGrid li {
+  height: 100%;
+  min-height: 35rem;
+  max-width: 30rem;
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 1px solid var(--bg-color03);
+  background-color: var(--bg-color01);
+  color: var(--text-color01);
+
+  transition: box-shadow 0.3s;
+  box-shadow: 8px 5px var(--bg-color03);
+}
+
+.projectGrid li:hover {
+  box-shadow: none;
+}
