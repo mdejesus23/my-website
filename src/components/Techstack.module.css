@@ -10,6 +10,20 @@
 }
 
 .techStack li {
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.4rem;
+}
+
+.techStack li p {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.techStack li img {
+  width: 3rem;
 }

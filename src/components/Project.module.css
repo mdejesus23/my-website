@@ -68,8 +68,11 @@
 
 .projectController a {
   font-size: 1.8rem;
+  color: var(--text-color02);
+  font-weight: 600;
+  transition: border-bottom 0.2s;
 }
 
 .projectController a:hover {
-  color: var(--text-color02);
+  border-bottom: 1px solid var(--bg-color03);
 }
