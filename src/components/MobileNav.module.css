@@ -1,0 +1,50 @@
+.mobileNav {
+  display: none;
+  width: 100%;
+  background-color: var(--bg-color03);
+  padding: 2rem;
+
+  z-index: 1;
+}
+
+.mobileNav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.mobileNav li {
+  padding: 1rem;
+  transition: color 0.2s;
+}
+
+.mobileNav li a {
+  transition: color 0.2s;
+}
+
+.mobileNav li:hover a {
+  color: var(--text-color02);
+}
+
+.mobileNav a {
+  font-size: 2.5rem;
+  color: var(--text-color03);
+}
+
+@media (max-width: 550px) {
+  .mobileNav {
+    display: block;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

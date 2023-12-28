@@ -1,14 +1,15 @@
 .header {
-  position: fixed;
+  /* position: fixed;
   top: 0;
-  left: 0;
+  left: 0; */
   height: 5rem;
   width: 100%;
+  background-color: var(--bg-color01);
+  padding: 0 1.6rem;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--bg-color01);
-  padding: 0 1.6rem;
 
   z-index: 99;
 }
@@ -19,10 +20,31 @@
   color: var(--text-color02);
 }
 
+.navController {
+  display: none;
+}
+
+.navController .menuBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+  border: none;
+  color: var(--text-color01);
+  cursor: pointer;
+}
+
+.menuBtn svg {
+  font-size: 4rem;
+  color: var(--text-color02);
+}
+
 .nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+
   padding: 1rem 1.5rem;
 }
 
@@ -41,4 +63,14 @@
 
 .nav ul li:last-child {
   padding-right: 0;
+}
+
+@media (max-width: 550px) {
+  .navController {
+    display: block;
+  }
+
+  .nav ul {
+    display: none;
+  }
 }

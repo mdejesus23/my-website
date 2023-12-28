@@ -10,10 +10,10 @@ function Hero() {
             Hi I'm <span>Melnard</span>
             <br />A Web Developer at <span>Heart</span>
           </h1>
-          {/* <a href="#contact" className="btn">
+          <a href="#contact" className="btn">
             Let's Talk!
-          </a> */}
-          <a
+          </a>
+          {/* <a
             className="btn"
             href="https://drive.google.com/file/d/1L-h-4ATTCMBDc-Rg5yZEoUe48sYjuFj8/view?usp=sharing"
             download
@@ -21,7 +21,7 @@ function Hero() {
             rel="noreferrer"
           >
             Download CV
-          </a>
+          </a> */}
         </div>
         <div className={styles.profile}>
           <div className={styles.profileImg}>
@@ -29,6 +29,36 @@ function Hero() {
           </div>
         </div>
       </div>
+
+      {/* mobile view */}
+
+      <div className={styles.mobileHeroGrid}>
+        <div className={styles.mobileProfile}>
+          <div className={styles.mobileProfileImg}>
+            <img src="/mdj.png" alt="profile" />
+          </div>
+        </div>
+
+        <div className={styles.mobileAbout}>
+          <h1>
+            Hi I'm <span>Melnard</span>
+            <br />A Web Developer at <span>Heart</span>
+          </h1>
+          <a href="#contact" className="btn">
+            Let's Talk!
+          </a>
+          {/* <a
+            className="btn"
+            href="https://drive.google.com/file/d/1L-h-4ATTCMBDc-Rg5yZEoUe48sYjuFj8/view?usp=sharing"
+            download
+            target="_blank"
+            rel="noreferrer"
+          >
+            Download CV
+          </a> */}
+        </div>
+      </div>
+
       <Techstack />
     </section>
   );

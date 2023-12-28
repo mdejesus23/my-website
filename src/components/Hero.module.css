@@ -2,7 +2,7 @@
   background-color: var(--bg-color01);
   height: 90vh;
   width: 100%;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
 
   display: flex;
   flex-direction: column;
@@ -17,6 +17,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 3rem;
+  padding: 0 1rem;
 
   margin-top: -10rem;
 }
@@ -53,4 +54,69 @@
 
 .profileImg img {
   width: 100%;
+}
+
+/* mobile view */
+.mobileHeroGrid {
+  display: none; /*display none by default*/
+}
+
+@media (max-width: 800px) {
+  .hero {
+    row-gap: 2rem;
+  }
+
+  .heroGrid {
+    display: none;
+  }
+
+  .mobileHeroGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+
+    margin-top: -6rem;
+  }
+
+  .mobileHeroGrid .mobileProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobileProfileImg {
+    width: 22rem;
+    height: 22rem;
+    border-radius: 50%;
+    background-color: var(--bg-color02);
+    transition: box-shadow 0.3s;
+    box-shadow: 0.7rem 0.4rem 0.4rem rgb(56, 51, 51);
+    overflow: hidden;
+  }
+
+  .mobileProfileImg img {
+    width: 100%;
+  }
+
+  .mobileAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+  }
+
+  .mobileAbout h1 {
+    font-size: 4rem;
+  }
+
+  .mobileAbout span {
+    color: var(--text-color02);
+  }
+}
+
+@media (max-width: 550px) {
+  .hero {
+    margin-top: 0;
+  }
 }
