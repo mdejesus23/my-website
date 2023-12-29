@@ -1,7 +1,8 @@
 .techList {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  column-gap: 2rem;
 
   margin: 1rem 0;
   width: 100%;
@@ -10,7 +11,16 @@
   font-size: 1.6rem;
 }
 
-.techList .tech {
+.techList div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   color: var(--text-color03);
   color: var(--text-color03);
+}
+
+.techList img {
+  width: 4rem;
 }

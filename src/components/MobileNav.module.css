@@ -2,7 +2,7 @@
   display: none;
   width: 100%;
   background-color: var(--bg-color03);
-  padding: 2rem;
+  /* padding: 2rem; */
   height: 100%;
 
   z-index: 1;
@@ -21,6 +21,7 @@
 }
 
 .mobileNav li a {
+  font-size: 1.6rem;
   transition: color 0.2s;
 }
 

@@ -1,0 +1,19 @@
+.projectController {
+  margin: 1.5rem auto;
+  width: 60%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projectController a {
+  font-size: 1.8rem;
+  color: var(--text-color02);
+  font-weight: 600;
+  transition: border-bottom 0.2s;
+}
+
+.projectController a:hover {
+  border-bottom: 1px solid var(--bg-color03);
+}

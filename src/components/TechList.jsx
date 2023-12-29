@@ -4,8 +4,8 @@ function TechList({ techStack }) {
   return (
     <div className={styles.techList}>
       {techStack.map((tech, ind) => (
-        <div className={styles.tech} key={ind}>
-          ⭐{tech}
+        <div key={ind}>
+          <img src={tech.techImg} alt={`${tech.tech} icon`} />
         </div>
       ))}
     </div>

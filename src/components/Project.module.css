@@ -9,7 +9,7 @@
 
 .projectGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   align-items: center;
   justify-content: center;
   column-gap: 2rem;
@@ -20,15 +20,14 @@
 }
 
 .projectGrid li {
-  height: 55rem;
-  /* min-height: 35rem; */
-  max-width: 40rem;
+  width: 70%;
   margin: 0 auto;
   border-radius: 8px;
   border: 1px solid var(--bg-color03);
   background-color: var(--bg-color01);
   color: var(--text-color01);
   padding: 1rem 0 5rem 0;
+  cursor: pointer;
 
   transition: box-shadow 0.3s;
   box-shadow: 8px 5px var(--bg-color03);
@@ -43,39 +42,35 @@
   margin-bottom: 2rem;
 }
 
+.projectGrid .imageContainer {
+  width: 100%;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 20rem;
+  object-fit: contain;
+}
+
 .projectGrid p {
   max-width: 90%;
   margin: auto;
-  /* height: auto; */
   text-align: justify;
   overflow-wrap: break-word;
-  line-height: 1.4;
 }
 
-.projectController {
-  margin: 1.5rem auto;
-  width: 60%;
-
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 3rem;
-
+.showDetailsController {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+
+  margin-top: 2rem;
 }
 
-.projectController a {
+.showDetailsController p {
+  font-weight: bold;
   font-size: 1.8rem;
-  color: var(--text-color02);
-  font-weight: 600;
-  transition: border-bottom 0.2s;
-}
-
-.projectController a:hover {
-  border-bottom: 1px solid var(--bg-color03);
+  /* color: var(--text-color02); */
 }
 
 @media (max-width: 700px) {
@@ -90,10 +85,18 @@
     width: 80%;
     margin: 4rem auto;
   }
+
+  .projectGrid li {
+    width: 80%;
+  }
 }
 
 @media (max-width: 550px) {
   .projectGrid {
     width: 90%;
+  }
+
+  .projectGrid li {
+    width: 100%;
   }
 }

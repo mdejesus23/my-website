@@ -25,9 +25,7 @@ function Footer() {
           <LinkedInIcon />
         </a>
       </div>
-      <p>
-        &copy; Copyrights || Allrights Reserved. App created thru Vite+React
-      </p>
+      <p>&copy; Copyrights || App created thru Vite+React</p>
     </footer>
   );
 }
