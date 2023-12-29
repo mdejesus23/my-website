@@ -58,6 +58,7 @@ function Project() {
             <TechList techStack={proj.techStack} />
 
             <p>{proj.description}</p>
+
             <div className={styles.projectController}>
               <a
                 className=""

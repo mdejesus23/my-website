@@ -34,6 +34,7 @@ function App() {
   };
 
   window.addEventListener("scroll", toggleVissible);
+  
   return (
     <main>
       <Header />

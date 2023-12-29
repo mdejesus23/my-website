@@ -4,7 +4,7 @@
   left: 0; */
   height: 5rem;
   width: 100%;
-  background-color: var(--bg-color01);
+  background-color: var(--bg-color03);
   padding: 0 1.6rem;
 
   display: flex;
@@ -17,7 +17,7 @@
 .logo {
   font-size: 4rem;
   font-weight: bold;
-  color: var(--text-color02);
+  color: var(--text-color03);
 }
 
 .navController {
@@ -37,7 +37,7 @@
 
 .menuBtn svg {
   font-size: 4rem;
-  color: var(--text-color02);
+  color: var(--text-color03);
 }
 
 .nav ul {
@@ -52,8 +52,13 @@
   padding: 0.5rem 1rem;
   margin-right: 10px;
   cursor: pointer;
+  color: var(--text-color03);
+  transition: color 0.15s;
+}
+
+.nav a {
   font-size: 1.6rem;
-  color: var(--text-color01);
+  color: var(--text-color03);
   transition: color 0.15s;
 }
 

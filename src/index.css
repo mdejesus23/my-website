@@ -3,11 +3,11 @@
   --bg-color01: rgb(242, 223, 170); /*beige*/
   --bg-color02: rgb(184, 13, 33); /*red*/
   --bg-color03: rgb(36, 34, 28); /*charcoal*/
-  --bg-color04: rgb(250, 250, 245); /*white gray*/
+  --bg-color04: rgb(238, 238, 234); /*white gray*/
 
   --text-color01: rgb(36, 34, 28); /*charcoal*/
   --text-color02: rgb(184, 13, 33); /*red*/
-  --text-color03: rgb(250, 250, 245); /*white gray*/
+  --text-color03: rgb(238, 238, 234); /*white gray*/
 }
 
 * {
@@ -22,9 +22,10 @@ html {
 }
 
 body {
+  padding: 3rem;
   background-color: rgb(252, 252, 252);
   color: var(--text-color01);
-  font-family: "sans-serif";
+  font-family: "times new roman";
 }
 
 h1 {
@@ -33,7 +34,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 h3 {
@@ -61,7 +62,7 @@ label {
 input,
 textarea {
   width: 100%;
-  padding: 0.8rem 1.2rem;
+  padding: 1rem 1.5rem;
   font-family: inherit;
   font-size: 1.6rem;
   border: none;
@@ -104,17 +105,12 @@ textarea:focus {
 
 @media (max-width: 1100px) {
   html {
-    font-size: 55%;
+    font-size: 56%;
   }
-
-  /* .btn {
-    font-size: 1.6rem;
-    padding: 1rem 1.5rem;
-  } */
 }
 
-@media (max-width: 800px) {
-  html {
-    font-size: 45%;
+@media (max-width: 850px) {
+  body {
+    padding: 0;
   }
 }

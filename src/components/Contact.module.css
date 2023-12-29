@@ -2,7 +2,7 @@
   background-color: var(--bg-color01);
   height: 90vh;
   width: 100%;
-  clip-path: polygon(0 22%, 100% 0%, 100% 100%, 0 100%);
+  clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 100%);
 
   padding-top: 10rem;
   padding-bottom: 4rem;
@@ -23,6 +23,11 @@
   font-size: 1.6rem;
 }
 
+.contactForm {
+  width: 70%;
+  max-width: 60rem;
+}
+
 .contactForm form {
   display: flex;
   flex-direction: column;
@@ -32,12 +37,12 @@
 
   margin: 2rem auto;
   width: 100%;
-  max-width: 60rem;
+  max-width: 90rem;
 }
 
 .contactForm div {
-  min-width: 40rem;
-  width: 70%;
+  /* min-width: 50rem; */
+  width: 100%;
   border: none;
 }
 
@@ -74,4 +79,10 @@ button:disabled:active {
   color: #ada9a9;
   border-color: #ccc;
   cursor: not-allowed;
+}
+
+@media (max-width: 550px) {
+  .contactForm {
+    width: 90%;
+  }
 }

@@ -22,6 +22,11 @@ const techStack = [
     icon: "/react.svg",
   },
   {
+    id: "04.1",
+    name: "redux",
+    icon: "/redux.svg",
+  },
+  {
     id: "05",
     name: "nodejs",
     icon: "/node.svg",
