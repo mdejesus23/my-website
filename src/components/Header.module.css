@@ -20,6 +20,11 @@
   color: var(--text-color03);
 }
 
+.logo span {
+  font-family: "Pacifico", cursive;
+  color: var(--text-color02);
+}
+
 .navController {
   display: none;
 }

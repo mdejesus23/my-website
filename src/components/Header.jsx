@@ -12,7 +12,9 @@ function Header() {
   return (
     <>
       <header className={styles.header}>
-        <div className={styles.logo}>MDJ</div>
+        <div className={styles.logo}>
+          MD<span>Jesus</span>
+        </div>
 
         <nav className={styles.nav}>
           <ul>

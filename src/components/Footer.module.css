@@ -37,13 +37,12 @@
 }
 
 .logo {
-  color: var(--text-color03);
   font-size: 4rem;
   font-weight: bold;
-
-  transition: color 0.3s;
+  color: var(--text-color03);
 }
 
-.logo:hover {
+.logo span {
+  font-family: "Pacifico", cursive;
   color: var(--text-color02);
 }

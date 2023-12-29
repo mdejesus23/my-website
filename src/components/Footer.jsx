@@ -7,9 +7,9 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.socials}>
-        <a className={styles.logo} href="#home">
-          MDJ
-        </a>
+        <div className={styles.logo}>
+          MD<span>Jesus</span>
+        </div>
         <a
           href="https://github.com/mdejesus23"
           target="_blank"

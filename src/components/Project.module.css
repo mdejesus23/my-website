@@ -7,6 +7,13 @@
   padding: 1rem 0;
 }
 
+.projectSection p {
+  text-align: center;
+  max-width: 70%;
+  margin: 2rem auto;
+  font-size: 1.6rem;
+}
+
 .projectGrid {
   display: grid;
   grid-template-columns: 1fr;
@@ -15,12 +22,12 @@
   column-gap: 2rem;
   row-gap: 4rem;
 
-  width: 80%;
+  width: 100%;
   margin: 4rem auto;
 }
 
 .projectGrid li {
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
   border-radius: 8px;
   border: 1px solid var(--bg-color03);
@@ -94,6 +101,11 @@
 @media (max-width: 550px) {
   .projectGrid {
     width: 90%;
+  }
+
+  .projectSection p {
+    max-width: 90%;
+    text-align: justify;
   }
 
   .projectGrid li {
