@@ -23,10 +23,12 @@
 .mobileNav li a {
   font-size: 1.8rem;
   transition: color 0.2s;
+  color: var(--text-color01);
+  font-family: var(--font-style02);
 }
 
 .mobileNav li:hover a {
-  color: var(--text-color02);
+  color: var(--text-color03);
 }
 
 .mobileNav a {
