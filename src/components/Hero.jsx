@@ -10,18 +10,9 @@ function Hero() {
             Hi I'm <span>Melnard</span>
             <br />A Web Developer at <span>Heart</span>
           </h1>
-          <a href="#contact" className="btn">
+          <a href="#contact" className={styles.heroButton}>
             Let's Talk!
           </a>
-          {/* <a
-            className="btn"
-            href="https://drive.google.com/file/d/1L-h-4ATTCMBDc-Rg5yZEoUe48sYjuFj8/view?usp=sharing"
-            download
-            target="_blank"
-            rel="noreferrer"
-          >
-            Download CV
-          </a> */}
         </div>
         <div className={styles.profile}>
           <div className={styles.profileImg}>
@@ -44,18 +35,9 @@ function Hero() {
             Hi I'm <span>Melnard</span>
             <br />A Web Developer at <span>Heart</span>
           </h1>
-          <a href="#contact" className="btn">
+          <a href="#contact" className={styles.heroButton}>
             Let's Talk!
           </a>
-          {/* <a
-            className="btn"
-            href="https://drive.google.com/file/d/1L-h-4ATTCMBDc-Rg5yZEoUe48sYjuFj8/view?usp=sharing"
-            download
-            target="_blank"
-            rel="noreferrer"
-          >
-            Download CV
-          </a> */}
         </div>
       </div>
 

@@ -1,5 +1,7 @@
 .contact {
-  background-color: var(--bg-color01);
+  background-image: url(/project-image.jpg);
+  background-size: cover;
+  background-position: center;
   height: 90vh;
   width: 100%;
   clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 100%);
@@ -20,7 +22,7 @@
   text-align: center;
   max-width: 70%;
   margin: 2rem auto;
-  font-size: 1.6rem;
+  font-size: 2.5rem;
 }
 
 .contactForm {
@@ -61,14 +63,16 @@
   border-radius: 10px;
   background-color: var(--bg-color02);
   color: var(--text-color03);
+  font-family: var(--font-style02);
   border: none;
   cursor: pointer;
 
   box-shadow: 0.7rem 0.4rem 0.4rem rgb(56, 51, 51);
-  transition: box-shadow 0.3s;
+  transition: box-shadow color 0.3s;
 }
 
 .formControl button:hover {
+  color: var(--text-color02);
   box-shadow: none;
 }
 
@@ -89,5 +93,6 @@ button:disabled:active {
   .contact p {
     max-width: 90%;
     text-align: justify;
+    font-size: 1.8rem;
   }
 }

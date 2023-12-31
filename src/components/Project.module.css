@@ -11,7 +11,7 @@
   text-align: center;
   max-width: 70%;
   margin: 2rem auto;
-  font-size: 1.6rem;
+  font-size: 2.5rem;
 }
 
 .projectGrid {
@@ -30,14 +30,18 @@
   width: 50%;
   margin: 0 auto;
   border-radius: 8px;
-  border: 1px solid var(--bg-color03);
-  background-color: var(--bg-color01);
+  border: none;
+  background-color: var(--bg-color06);
   color: var(--text-color01);
   padding: 1rem 0 5rem 0;
   cursor: pointer;
 
+  /* background-image: url(/project-image.jpg);
+  background-size: cover;
+  background-position: center; */
+
   transition: box-shadow 0.3s;
-  box-shadow: 8px 5px var(--bg-color03);
+  box-shadow: 0.7rem 0.4rem 0.8rem rgb(153, 145, 145);
   position: relative;
 }
 
@@ -106,6 +110,7 @@
   .projectSection p {
     max-width: 90%;
     text-align: justify;
+    font-size: 1.8rem;
   }
 
   .projectGrid li {

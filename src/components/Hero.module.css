@@ -9,6 +9,10 @@
   align-items: center;
   row-gap: 5rem;
 
+  background-image: url(/hero-image.jpg);
+  background-size: cover;
+  background-position: center;
+
   clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
 }
 
@@ -31,6 +35,29 @@
 
 .about span {
   color: var(--text-color02);
+  font-family: var(--font-style02);
+}
+
+.heroButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: var(--font-style02);
+  padding: 1.5rem 2.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 3.5rem;
+  background-color: var(--bg-color02);
+  color: var(--text-color03);
+  box-shadow: 0.7rem 0.4rem 0.4rem rgb(56, 51, 51);
+  cursor: pointer;
+  transition: color box-shadow 0.3s;
+}
+
+.heroButton:hover {
+  color: var(--text-color02);
+  box-shadow: none;
 }
 
 .heroGrid .profile {
@@ -111,6 +138,7 @@
 
   .mobileAbout span {
     color: var(--text-color02);
+    font-family: var(--font-style02);
   }
 }
 

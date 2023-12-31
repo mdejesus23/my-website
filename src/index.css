@@ -1,13 +1,19 @@
 /* These CSS variables are global, so they are available in all CSS modules */
 :root {
-  --bg-color01: rgb(242, 223, 170); /*beige*/
-  --bg-color02: rgb(184, 13, 33); /*red*/
-  --bg-color03: rgb(36, 34, 28); /*charcoal*/
-  --bg-color04: rgb(238, 238, 234); /*white gray*/
+  --bg-color01: #c5d8d1;
+  --bg-color02: #12263a; /*prussian blue*/
+  --bg-color03: #06bcc1;
+  --bg-color04: #f4d1ae;
+  --bg-color05: #ffffff; /*white*/
+  --bg-color06: #f4edea; /*white*/
 
-  --text-color01: rgb(36, 34, 28); /*charcoal*/
-  --text-color02: rgb(184, 13, 33); /*red*/
-  --text-color03: rgb(238, 238, 234); /*white gray*/
+  --text-color01: #12263a; /*prussian blue*/
+  --text-color02: #06bcc1;
+  --text-color03: #f0ece5;
+
+  /* --font-style01: "Open Sans", sans-serif; */
+  --font-style01: "times new roman";
+  --font-style02: "Pacifico", cursive;
 }
 
 * {
@@ -25,7 +31,7 @@ body {
   padding: 3rem;
   background-color: rgb(252, 252, 252);
   color: var(--text-color01);
-  font-family: "times new roman";
+  font-family: var(--font-style01);
 }
 
 h1 {
@@ -68,7 +74,7 @@ textarea {
   font-size: 1.6rem;
   border: none;
   border-radius: 5px;
-  background-color: var(--bg-color04);
+  background-color: var(--bg-color05);
   transition: all 0.2s;
 }
 

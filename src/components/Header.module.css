@@ -4,7 +4,7 @@
   left: 0; */
   height: 5rem;
   width: 100%;
-  background-color: var(--bg-color03);
+  background-color: var(--bg-color02);
   padding: 0 1.6rem;
 
   display: flex;
@@ -21,7 +21,7 @@
 }
 
 .logo span {
-  font-family: "Pacifico", cursive;
+  font-family: var(--font-style02);
   color: var(--text-color02);
 }
 
@@ -64,6 +64,7 @@
 .nav a {
   font-size: 1.6rem;
   color: var(--text-color03);
+  font-family: var(--font-style02);
   transition: color 0.15s;
 }
 
