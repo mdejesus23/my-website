@@ -2,12 +2,13 @@
   background-image: url(/project-image.jpg);
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
+  min-height: 100%;
   width: 100%;
   clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 100%);
 
-  padding-top: 10rem;
-  padding-bottom: 4rem;
+  padding-top: 9rem;
+  /* padding-bottom: 2rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,9 +59,9 @@
   justify-content: center;
   align-items: center;
 
-  padding: 1.5rem 4rem;
+  padding: 1rem 4rem;
   font-size: 1.6rem;
-  border-radius: 10px;
+  border-radius: 50px;
   background-color: var(--bg-color02);
   color: var(--text-color03);
   font-family: var(--font-style02);
