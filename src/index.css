@@ -11,9 +11,9 @@
   --text-color02: #06bcc1;
   --text-color03: #f0ece5;
 
-  /* --font-style01: "Open Sans", sans-serif; */
-  --font-style01: "times new roman";
-  --font-style02: "Pacifico", cursive;
+  --font-style01: "Signika Negative", sans-serif;
+  --font-style02: "Patua One", serif;
+  --font-style03: "Pacifico", cursive;
 }
 
 * {

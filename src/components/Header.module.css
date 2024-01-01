@@ -1,7 +1,4 @@
 .header {
-  /* position: fixed;
-  top: 0;
-  left: 0; */
   height: 5rem;
   width: 100%;
   background-color: var(--bg-color02);
@@ -21,7 +18,7 @@
 }
 
 .logo span {
-  font-family: var(--font-style02);
+  font-family: var(--font-style03);
   color: var(--text-color02);
 }
 

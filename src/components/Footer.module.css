@@ -43,6 +43,6 @@
 }
 
 .logo span {
-  font-family: "Pacifico", cursive;
+  font-family: var(--font-style03);
   color: var(--text-color02);
 }
