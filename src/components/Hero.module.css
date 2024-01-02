@@ -1,5 +1,6 @@
 .hero {
-  height: calc(100vh - 5rem);
+  min-height: calc(100vh - 5rem);
+  height: 100%;
   width: 100%;
 
   display: flex;
@@ -51,7 +52,7 @@
   color: var(--text-color03);
   box-shadow: 0.7rem 0.4rem 0.4rem rgb(56, 51, 51);
   cursor: pointer;
-  transition: color box-shadow 0.3s;
+  transition: all 0.5s;
 }
 
 .heroButton:hover {

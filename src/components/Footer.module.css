@@ -3,7 +3,7 @@
   background-color: var(--bg-color02);
   color: var(--text-color03);
   font-size: 1.6rem;
-  padding: 3rem;
+  padding: 1rem;
 
   display: flex;
   flex-direction: column;

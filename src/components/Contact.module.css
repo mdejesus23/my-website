@@ -2,13 +2,13 @@
   background-image: url(/project-image.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  min-height: 100%;
+  min-height: calc(100vh - 5rem);
+  height: 100%;
   width: 100%;
   clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 100%);
 
-  padding-top: 9rem;
-  /* padding-bottom: 2rem; */
+  padding-top: 5rem;
+  /* padding-bottom: 9rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;

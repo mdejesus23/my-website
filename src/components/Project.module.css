@@ -1,6 +1,5 @@
 .projectSection {
   background-color: white;
-  min-height: 90vh;
   height: 100%;
   width: 100%;
   text-align: center;
@@ -36,10 +35,6 @@
   padding: 1rem 0 5rem 0;
   cursor: pointer;
 
-  /* background-image: url(/project-image.jpg);
-  background-size: cover;
-  background-position: center; */
-
   transition: box-shadow 0.3s;
   box-shadow: 0.7rem 0.4rem 0.8rem rgb(153, 145, 145);
   position: relative;
@@ -47,6 +42,10 @@
 
 .projectGrid li:hover {
   box-shadow: none;
+}
+
+.projectGrid li:hover .showDetailsController p {
+  color: var(--text-color02);
 }
 
 .projectGrid h3 {
