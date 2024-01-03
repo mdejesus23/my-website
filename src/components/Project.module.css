@@ -8,9 +8,9 @@
 
 .projectSection p {
   text-align: center;
-  max-width: 70%;
+  max-width: 60%;
   margin: 2rem auto;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 
 .projectGrid {
@@ -67,6 +67,8 @@
   margin: auto;
   text-align: justify;
   overflow-wrap: break-word;
+  font-size: 1.8rem;
+  line-height: 1.5;
 }
 
 .showDetailsController {
