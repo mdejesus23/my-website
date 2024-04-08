@@ -42,20 +42,6 @@ const projectList = [
     videoDemo: "",
   },
   {
-    id: "p2",
-    name: "Ecommerce",
-    imgSrc: "/tshirtShop.jpg",
-    link: "https://shop.melnerdz.com",
-    description: `I have developed an E-commerce website using technologies such as HTML, Sass, and JavaScript. To retrieve product data dynamically, I utilize the Fetch API to send a GET request to Firebase and seamlessly render the information on the client side. Additionally, I have implemented local storage to effectively store and manage cart data. While the application doesn't support POST requests, it serves as a comprehensive showcase of my proficiency in user interface design and responsive web development.`,
-    sourceCode: "https://github.com/mdejesus23/ecommerce-sample",
-    techStack: [
-      { id: "js1", tech: "Javascript", techImg: "/js.svg" },
-      { id: "s2", tech: "SASS", techImg: "/sass.svg" },
-      { id: "h2", tech: "HTML", techImg: "/html.svg" },
-    ],
-    videoDemo: "",
-  },
-  {
     id: "p4",
     name: "Tech Documentation",
     imgSrc: "/techDocu.jpg",

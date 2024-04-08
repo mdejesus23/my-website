@@ -17,6 +17,11 @@ const techStack = [
     icon: "/js.svg",
   },
   {
+    id: "035343",
+    name: "jquery",
+    icon: "/jquery.svg",
+  },
+  {
     id: "04",
     name: "react",
     icon: "/react.svg",
@@ -45,6 +50,21 @@ const techStack = [
     id: "04",
     name: "git",
     icon: "/git.svg",
+  },
+  {
+    id: "0351",
+    name: "mongodb",
+    icon: "/mongodb.svg",
+  },
+  {
+    id: "0334244",
+    name: "mysql",
+    icon: "/mysql.svg",
+  },
+  {
+    id: "5657",
+    name: "aws",
+    icon: "/aws.svg",
   },
 ];
 

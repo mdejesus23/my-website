@@ -8,7 +8,7 @@ function Hero() {
         <div className={styles.about}>
           <h1>
             Hi I'm <span>Melnard</span>
-            <br />A Web Developer at <span>Heart</span>
+            <br />A Junior Software Developer
           </h1>
           <a href="#contact" className={styles.heroButton}>
             Let's Talk!
@@ -33,7 +33,7 @@ function Hero() {
         <div className={styles.mobileAbout}>
           <h1>
             Hi I'm <span>Melnard</span>
-            <br />A Web Developer at <span>Heart</span>
+            <br />A Junior Software Developer
           </h1>
           <a href="#contact" className={styles.heroButton}>
             Let's Talk!
