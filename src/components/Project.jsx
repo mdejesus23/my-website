@@ -28,6 +28,20 @@ const projectList = [
       "https://www.loom.com/share/24b8f9eb7d6f4a0f893e6293056aad2b?sid=3cb414ce-367d-4c39-9e6c-d02360e9ecb1",
   },
   {
+    id: "p1.5",
+    name: "Lakewood Ranch",
+    imgSrc: "/lakewood.jpg",
+    link: "https://www.lwrhome.com/new-construction/new-construction-lakewood-ranch/",
+    description: `I developed and integrated a component for a client's real estate website, enabling advanced filtering of Lakewood community listings. Both the design and layout were crafted by me to enhance user experience. If you're interested in adding similar functionality to your website, please don't hesitate to reach out.😊`,
+    sourceCode: "https://github.com/mdejesus23",
+    techStack: [
+      { id: "js101", tech: "Javascript", techImg: "/js.svg" },
+      { id: "css101", tech: "CSS", techImg: "/css.svg" },
+      { id: "h1", tech: "HTML", techImg: "/html.svg" },
+    ],
+    videoDemo: "",
+  },
+  {
     id: "p1",
     name: "Food Ordering App",
     imgSrc: "/foodOrderApp.jpg",
