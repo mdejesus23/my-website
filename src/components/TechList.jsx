@@ -1,13 +1,16 @@
 import styles from "./TechList.module.css";
 
-function TechList({ techStack }) {
+function TechList({ techStack, shortDescription }) {
   return (
     <div className={styles.techList}>
-      {techStack.map((tech, ind) => (
-        <div key={ind}>
-          <img src={tech.techImg} alt={`${tech.tech} icon`} />
-        </div>
-      ))}
+      <div className={styles.techListContainer}>
+        {techStack.map((tech, ind) => (
+          <div className={styles.techIcon} key={ind}>
+            <img src={tech.techImg} alt={`${tech.tech} icon`} />
+          </div>
+        ))}
+      </div>
+      <p>{shortDescription}</p>
     </div>
   );
 }

@@ -17,15 +17,30 @@
   justify-content: center;
   align-items: center;
   column-gap: 0.4rem;
+
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+}
+
+.techStack li img {
+  width: 3rem; /* Adjust size as needed */
+
+  transition: transform 0.2s ease-in-out;
+}
+
+.techStack li:hover img {
+  transform: scale(1.2) rotate(20deg);
+}
+
+@keyframes bounce {
+  to {
+    transform: translateY(-5px);
+  }
 }
 
 .techStack li p {
   font-size: 1.6rem;
   text-transform: uppercase;
-}
-
-.techStack li img {
-  width: 3rem;
 }
 
 @media (max-width: 850px) {
