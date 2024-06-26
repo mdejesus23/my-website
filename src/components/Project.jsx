@@ -1,8 +1,5 @@
 import { useState } from "react";
 
-import ArrowDown from "@mui/icons-material/KeyboardArrowDown";
-import ArrowUp from "@mui/icons-material/KeyboardArrowUp";
-
 import styles from "./Project.module.css";
 import TechList from "./TechList";
 import ProjectController from "./ProjectController";
@@ -33,6 +30,10 @@ function Project() {
             <div className={styles.imageContainer}>
               <img src={proj.imgSrc} alt={proj.name} />
             </div>
+            <TechList
+              techStack={proj.techStack}
+              shortDescription={proj.shortDesc}
+            />
 
             {isOpenModal === proj.id && (
               <Modal>
@@ -48,11 +49,6 @@ function Project() {
                 />
               </Modal>
             )}
-
-            <TechList
-              techStack={proj.techStack}
-              shortDescription={proj.shortDesc}
-            />
           </li>
         ))}
       </div>
