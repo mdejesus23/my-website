@@ -33,6 +33,12 @@
   color: var(--text-color01);
 }
 
+.modal p {
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+
 .closeModalBtn {
   background: none;
   border: none;

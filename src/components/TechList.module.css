@@ -1,7 +1,6 @@
 .techList {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   column-gap: 2rem;
   color: var(--text-color03);
@@ -15,7 +14,7 @@
 .techListContainer {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   gap: 2rem;
 
   width: 100%;
