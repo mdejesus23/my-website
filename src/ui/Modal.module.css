@@ -49,12 +49,17 @@
   position: absolute;
   top: 1.2rem;
   right: 1.9rem;
+  cursor: pointer;
 
   color: var(--text-color02);
   width: 3.4rem;
   height: 3.4rem;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .closeModalBtn:hover {
