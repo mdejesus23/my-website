@@ -74,17 +74,18 @@
   color: var(--text-color02);
 }
 
-.projectGrid h3 {
-  margin-bottom: 2rem;
-}
+/* .projectGrid h3 {
+  margin-bottom: 1rem;
+} */
 
 .projectGrid .imageContainer {
-  width: 100%;
+  width: 95%;
+  margin: 1.5rem auto;
 }
 
 .imageContainer img {
   width: 100%;
-  height: 20rem;
+  height: 30rem;
   object-fit: contain;
 }
 

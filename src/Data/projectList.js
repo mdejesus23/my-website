@@ -3,7 +3,7 @@ const projectList = [
     id: "p-01",
     name: "Preparation App",
     shortDesc:
-      "This is a full-stack web app using Node.js, Express, MongoDB, EJS, and CSS, featuring user signup/login.",
+      "This is a full-stack SSR webapp using Node.js, Express, MongoDB, EJS, CSS etc. With features user signup/login and more.",
     imgSrc: "/prepApp.jpg",
     link: "https://preparation-app.onrender.com/",
     description: `
@@ -17,8 +17,8 @@ const projectList = [
       { id: "css101", tech: "CSS", techImg: "/css.svg" },
       { id: "h101", tech: "HTML", techImg: "/html.svg" },
     ],
-    videoDemo:
-      "https://www.loom.com/share/24b8f9eb7d6f4a0f893e6293056aad2b?sid=3cb414ce-367d-4c39-9e6c-d02360e9ecb1",
+    // videoDemo:
+    //   "https://www.loom.com/share/24b8f9eb7d6f4a0f893e6293056aad2b?sid=3cb414ce-367d-4c39-9e6c-d02360e9ecb1",
   },
   {
     id: "p1.5",
