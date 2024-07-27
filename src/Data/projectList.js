@@ -21,6 +21,23 @@ const projectList = [
     //   "https://www.loom.com/share/24b8f9eb7d6f4a0f893e6293056aad2b?sid=3cb414ce-367d-4c39-9e6c-d02360e9ecb1",
   },
   {
+    id: "w1",
+    name: "Wedding Website",
+    imgSrc: "/wedding.JPG",
+    shortDesc:
+      "I developed this wedding website for my churchmates to help them organize and digitalize their wedding invitations.",
+    link: "https://jayandmikka-wedding.netlify.app/",
+    description: `Welcome to the Wedding of the Year website, crafted with the Astro SSG framework. Every design element and layout you see here is born from my vision and creativity. It has an RSVP form that sends message directly to their account and more. Explore and enjoy the celebration of this special occasion.`,
+    sourceCode: "https://github.com/mdejesus23/jay-mikka-wedding",
+    techStack: [
+      { id: "a1", tech: "Astro", techImg: "/icons8-astro-js.svg" },
+      { id: "js101", tech: "Javascript", techImg: "/js.svg" },
+      { id: "css101", tech: "CSS", techImg: "/css.svg" },
+      { id: "h1", tech: "HTML", techImg: "/html.svg" },
+    ],
+    videoDemo: "",
+  },
+  {
     id: "p1.5",
     name: "Lakewood Ranch",
     imgSrc: "/lakewood.jpg",
@@ -49,22 +66,6 @@ const projectList = [
       { id: "r1", tech: "ReactJs", techImg: "/react.svg" },
       { id: "s1", tech: "SASS", techImg: "/sass.svg" },
       { id: "h1", tech: "HTML", techImg: "/html.svg" },
-    ],
-    videoDemo: "",
-  },
-  {
-    id: "p4",
-    name: "Tech Documentation",
-    imgSrc: "/techDocu.jpg",
-    shortDesc:
-      "HTML and CSS documentation site from a cheat sheet PDF, accessible on any device.",
-    link: "https://documentation.melnerdz.com",
-    description: `This is an HTML and CSS technical documentation, a comprehensive resource converted from our handy cheat sheet PDF into a user-friendly website. Accessible on any device, it provides quick references for tags, elements, selectors, and styling techniques. Elevate your coding productivity and effortlessly create stunning web pages. I have utilized grid and flexbox to showcase my capabilities in building web pages and UI from scratch.`,
-    sourceCode: "https://github.com/mdejesus23/technical-doc",
-    techStack: [
-      { id: "js2", tech: "Javascript", techImg: "/js.svg" },
-      { id: "css1", tech: "CSS", techImg: "/css.svg" },
-      { id: "h3", tech: "HTML", techImg: "/html.svg" },
     ],
     videoDemo: "",
   },
