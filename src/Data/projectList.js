@@ -25,9 +25,9 @@ const projectList = [
     name: "Wedding Website",
     imgSrc: "/wedding.JPG",
     shortDesc:
-      "I developed this wedding website for my churchmates to help them organize and digitalize their wedding invitations.",
+      "I developed this unique wedding website for my churchmates to help them organize and digitalize their wedding invitations.",
     link: "https://jayandmikka-wedding.netlify.app/",
-    description: `Welcome to the Wedding of the Year website, crafted with the Astro SSG framework. Every design element and layout you see here is born from my vision and creativity. It has an RSVP form that sends message directly to their account and more. Explore and enjoy the celebration of this special occasion.`,
+    description: `Welcome to the Wedding of the Year website, crafted with the Astro SSG framework. Every design element and layout you see here is born from my vision and creativity including the logo. I've used Astro island architecture with React js component for interactive components. It has an RSVP form that sends message directly to their account, responsive image gallery, accordion for FAQ page, carousel in our story page and more. Explore and enjoy the celebration of this special occasion.`,
     sourceCode: "https://github.com/mdejesus23/jay-mikka-wedding",
     techStack: [
       { id: "a1", tech: "Astro", techImg: "/icons8-astro-js.svg" },
@@ -58,7 +58,7 @@ const projectList = [
     name: "Food Ordering App",
     imgSrc: "/foodOrderApp.jpg",
     shortDesc:
-      "Food Ordering App using React.js with useState, useReducer, and other hooks.",
+      "Food Ordering App using React.js with useState, useReducer, and other hooks. This is just a practice project with React js.",
     link: "https://food-app.melnerdz.com",
     description: `I have developed a Food Ordering App using React.js, incorporating essential concepts such as useState for state management, useReducer, useCallback, and other key React hooks. Additionally, I utilized the Fetch API to send GET requests to a Firebase server and interact with a real-time database. The app is styled using Sass, providing a visually appealing interface. Users can add items to their cart and place orders, triggering a POST request to Firebase for seamless order processing.`,
     sourceCode: "https://github.com/mdejesus23/food-app",
