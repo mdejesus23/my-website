@@ -25,7 +25,7 @@ function Footer() {
           <LinkedInIcon />
         </a>
       </div>
-      <p>&copy; Copyrights || App created thru Vite+React</p>
+      <p>Copyrights &copy; melnerdz.com All Rights Reserved.</p>
     </footer>
   );
 }
