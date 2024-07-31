@@ -37,38 +37,38 @@ const projectList = [
     ],
     videoDemo: "",
   },
-  {
-    id: "p1.5",
-    name: "Lakewood Ranch",
-    imgSrc: "/lakewood.jpg",
-    shortDesc:
-      "A custom component for a client's real estate website, enabling advanced filtering of Lakewood community listings.",
-    link: "https://www.lwrhome.com/new-construction/new-construction-lakewood-ranch/",
-    description: `I developed and integrated a component for a client's real estate website, enabling advanced filtering of Lakewood community listings. Both the design and layout were crafted by me to enhance user experience. If you're interested in adding similar functionality to your website, please don't hesitate to reach out.😊`,
-    sourceCode: "https://github.com/mdejesus23",
-    techStack: [
-      { id: "js101", tech: "Javascript", techImg: "/js.svg" },
-      { id: "css101", tech: "CSS", techImg: "/css.svg" },
-      { id: "h1", tech: "HTML", techImg: "/html.svg" },
-    ],
-    videoDemo: "",
-  },
-  {
-    id: "p1",
-    name: "Food Ordering App",
-    imgSrc: "/foodOrderApp.jpg",
-    shortDesc:
-      "Food Ordering App using React.js with useState, useReducer, and other hooks. This is just a practice project with React js.",
-    link: "https://food-app.melnerdz.com",
-    description: `I have developed a Food Ordering App using React.js, incorporating essential concepts such as useState for state management, useReducer, useCallback, and other key React hooks. Additionally, I utilized the Fetch API to send GET requests to a Firebase server and interact with a real-time database. The app is styled using Sass, providing a visually appealing interface. Users can add items to their cart and place orders, triggering a POST request to Firebase for seamless order processing.`,
-    sourceCode: "https://github.com/mdejesus23/food-app",
-    techStack: [
-      { id: "r1", tech: "ReactJs", techImg: "/react.svg" },
-      { id: "s1", tech: "SASS", techImg: "/sass.svg" },
-      { id: "h1", tech: "HTML", techImg: "/html.svg" },
-    ],
-    videoDemo: "",
-  },
+  // {
+  //   id: "p1.5",
+  //   name: "Lakewood Ranch",
+  //   imgSrc: "/lakewood.jpg",
+  //   shortDesc:
+  //     "A custom component for a client's real estate website, enabling advanced filtering of Lakewood community listings.",
+  //   link: "https://www.lwrhome.com/new-construction/new-construction-lakewood-ranch/",
+  //   description: `I developed and integrated a component for a client's real estate website, enabling advanced filtering of Lakewood community listings. Both the design and layout were crafted by me to enhance user experience. If you're interested in adding similar functionality to your website, please don't hesitate to reach out.😊`,
+  //   sourceCode: "https://github.com/mdejesus23",
+  //   techStack: [
+  //     { id: "js101", tech: "Javascript", techImg: "/js.svg" },
+  //     { id: "css101", tech: "CSS", techImg: "/css.svg" },
+  //     { id: "h1", tech: "HTML", techImg: "/html.svg" },
+  //   ],
+  //   videoDemo: "",
+  // },
+  // {
+  //   id: "p1",
+  //   name: "Food Ordering App",
+  //   imgSrc: "/foodOrderApp.jpg",
+  //   shortDesc:
+  //     "Food Ordering App using React.js with useState, useReducer, and other hooks. This is just a practice project with React js.",
+  //   link: "https://food-app.melnerdz.com",
+  //   description: `I have developed a Food Ordering App using React.js, incorporating essential concepts such as useState for state management, useReducer, useCallback, and other key React hooks. Additionally, I utilized the Fetch API to send GET requests to a Firebase server and interact with a real-time database. The app is styled using Sass, providing a visually appealing interface. Users can add items to their cart and place orders, triggering a POST request to Firebase for seamless order processing.`,
+  //   sourceCode: "https://github.com/mdejesus23/food-app",
+  //   techStack: [
+  //     { id: "r1", tech: "ReactJs", techImg: "/react.svg" },
+  //     { id: "s1", tech: "SASS", techImg: "/sass.svg" },
+  //     { id: "h1", tech: "HTML", techImg: "/html.svg" },
+  //   ],
+  //   videoDemo: "",
+  // },
 ];
 
 export default projectList;

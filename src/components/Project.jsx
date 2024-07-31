@@ -10,8 +10,7 @@ function Project() {
       <h2>My Projects</h2>
       <p>
         These are my unique projects which I built based on my interest and
-        needs, most specially the <i>Preparation App</i> and the{" "}
-        <i>Technical Documentation.</i> Please feel free to visit and explore.
+        needs, most specially the <i>Preparation App.</i>
       </p>
       <div className={styles.projectGrid}>
         {projectList.map((proj, ind) => (
