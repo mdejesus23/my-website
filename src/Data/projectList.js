@@ -31,6 +31,7 @@ const projectList = [
     sourceCode: "https://github.com/mdejesus23/jay-mikka-wedding",
     techStack: [
       { id: "a1", tech: "Astro", techImg: "/icons8-astro-js.svg" },
+      { id: "r1", tech: "ReactJs", techImg: "/react.svg" },
       { id: "js101", tech: "Javascript", techImg: "/js.svg" },
       { id: "css101", tech: "CSS", techImg: "/css.svg" },
       { id: "h1", tech: "HTML", techImg: "/html.svg" },
