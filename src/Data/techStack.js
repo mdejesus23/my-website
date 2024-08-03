@@ -64,6 +64,11 @@ const techStack = [
     name: "aws",
     icon: "/aws.svg",
   },
+  {
+    id: "5657sdfsd",
+    name: "Astro",
+    icon: "/icons8-astro-js.svg",
+  },
 ];
 
 export default techStack;
