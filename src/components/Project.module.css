@@ -148,4 +148,10 @@
   .projectGrid li {
     width: 100%;
   }
+
+  .description {
+    max-height: 250px;
+    overflow-y: auto;
+    padding: 0.5rem;
+  }
 }

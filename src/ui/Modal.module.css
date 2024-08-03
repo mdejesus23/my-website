@@ -20,7 +20,7 @@
   background-color: var(--bg-color06);
   border-radius: 9px;
   box-shadow: var(--shadow-lg);
-  padding: 3.2rem 4rem;
+  padding: 2rem;
   transition: all 0.5s;
 
   color: var(--text-color01);
