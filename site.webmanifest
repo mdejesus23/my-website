@@ -1,0 +1,19 @@
+{
+  "name": "Melnard Portfolio Website",
+  "short_name": "Melnerdz Portfolio",
+  "icons": [
+    {
+      "src": "/icons8-letter-m-100.png",
+      "sizes": "100x100",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons8-letter-m-100.png",
+      "sizes": "100x100",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#06bcc1",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
