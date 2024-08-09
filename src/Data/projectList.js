@@ -38,6 +38,25 @@ const projectList = [
     ],
     videoDemo: "",
   },
+  {
+    id: "accodade",
+    name: "Accolade AI",
+    imgSrc: "/accolade.JPG",
+    shortDesc:
+      "I'm developing this Accolade AI website for a client. The user can subscribe with this to get updated to the latest newsletter and featured stories.",
+    link: "https://accolade.ai/",
+    description: `This Accolade AI website I have developed for a client and continuesly adding more pages. It is built with Astro framework, typescript, CSS with BEM methodology.`,
+    sourceCode: "",
+    techStack: [
+      { id: "a1", tech: "Astro", techImg: "/icons8-astro-js.svg" },
+      { id: "css101", tech: "CSS", techImg: "/css.svg" },
+      { id: "h1", tech: "HTML", techImg: "/html.svg" },
+      { id: "js101", tech: "Javascript", techImg: "/js.svg" },
+      { id: "type1", tech: "Typescript", techImg: "/icons8-typescript.svg" },
+      { id: "md1", tech: "Markdown", techImg: "/md-icon.png" },
+    ],
+    videoDemo: "",
+  },
   // {
   //   id: "p1.5",
   //   name: "Lakewood Ranch",
