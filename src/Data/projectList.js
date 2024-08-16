@@ -45,7 +45,7 @@ const projectList = [
     shortDesc:
       "I'm developing this Accolade AI website for a client. The user can subscribe with this to get updated to the latest newsletter and featured stories.",
     link: "https://accolade.ai/",
-    description: `This Accolade AI website I have developed for a client and continuesly adding more pages. It is built with Astro framework, typescript, CSS with BEM methodology.`,
+    description: `I developed the Accolade AI website for a client using the Astro framework, TypeScript, and CSS with BEM methodology. The site features a responsive design, newsletter subscription, and pagination for seamless navigation. I also incorporated Markdown files for managing newsletters and featured stories, allowing for easy content updates. The project is ongoing, with continuous additions of new pages and features.`,
     sourceCode: "",
     techStack: [
       { id: "a1", tech: "Astro", techImg: "/icons8-astro-js.svg" },

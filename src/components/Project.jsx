@@ -9,8 +9,12 @@ function Project() {
     <section id="project" className={styles.projectSection}>
       <h2>My Projects</h2>
       <p>
-        These are my unique projects which I built based on my interest and
-        needs, most specially the <i>Preparation App.</i>
+        These are some of the projects I've developed, showcasing both personal
+        and client work. They include a full-stack web application and a static
+        site generated with the Astro framework, enhanced with React for
+        interactive components. These projects highlight my ability to deliver
+        dynamic, responsive, and user-focused solutions across various
+        technologies.
       </p>
       <div className={styles.projectGrid}>
         {projectList.map((proj, ind) => (

@@ -10,9 +10,14 @@ function Hero() {
             Hi I'm <span>Melnard</span>
             <br />A Software Developer
           </h1>
-          <a href="#contact" className={styles.heroButton}>
-            Let's Talk!
-          </a>
+
+          <p className={styles.professionalBackground}>
+            A motivated developer with experience in AWS (Lambda with Node.js,
+            Textract, CloudWatch), MySQL, and MongoDB. Skilled in building
+            projects using Astro and React, with a solid foundation in HTML,
+            CSS, and JavaScript. Passionate about creating scalable solutions
+            and seamless user experiences.
+          </p>
         </div>
         <div className={styles.profile}>
           <div className={styles.profileImg}>
@@ -35,9 +40,13 @@ function Hero() {
             Hi I'm <span>Melnard</span>
             <br />A Software Developer
           </h1>
-          <a href="#contact" className={styles.heroButton}>
-            Let's Talk!
-          </a>
+          <p className={styles.professionalBackground}>
+            A motivated developer with experience in AWS (Lambda with Node.js,
+            Textract, CloudWatch), MySQL, and MongoDB. Skilled in building
+            projects using Astro and React, with a solid foundation in HTML,
+            CSS, and JavaScript. Passionate about creating scalable solutions
+            and seamless user experiences.
+          </p>
         </div>
       </div>
 
