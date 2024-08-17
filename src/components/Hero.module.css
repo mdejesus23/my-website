@@ -63,7 +63,9 @@
 .professionalBackground {
   text-align: center;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
+  line-height: 1.7;
+  letter-spacing: -0.035em;
 }
 
 .heroGrid .profile {
