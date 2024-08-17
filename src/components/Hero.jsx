@@ -41,11 +41,11 @@ function Hero() {
             <br />A Software Developer
           </h1>
           <p className={styles.professionalBackground}>
-            A motivated developer with experience in AWS (Lambda with Node.js,
-            Textract, CloudWatch), MySQL, and MongoDB. Skilled in building
-            projects using Astro and React, with a solid foundation in HTML,
-            CSS, and JavaScript. Passionate about creating scalable solutions
-            and seamless user experiences.
+            With experience in AWS (Lambda with Node.js, Textract, CloudWatch),
+            MySQL, and MongoDB. Skilled in building projects using Astro and
+            React, with a solid foundation in HTML, CSS, and JavaScript.
+            Passionate about creating scalable solutions and seamless user
+            experiences.
           </p>
         </div>
       </div>

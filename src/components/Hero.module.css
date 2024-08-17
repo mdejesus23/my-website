@@ -161,7 +161,9 @@
   }
 
   .mobileAbout .professionalBackground {
-    width: 90%;
+    width: 95%;
+    line-height: 1.6;
+    text-align: center;
   }
 }
 
