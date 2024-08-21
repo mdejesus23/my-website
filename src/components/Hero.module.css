@@ -84,9 +84,22 @@
   overflow: hidden;
 
   padding-bottom: 5rem;
+  position: relative;
 }
 
 .profileImg img {
+  width: 100%;
+}
+
+.icon {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  width: 100px;
+  z-index: 99999999;
+}
+
+.icon img {
   width: 100%;
 }
 
@@ -162,7 +175,7 @@
 
   .mobileAbout .professionalBackground {
     width: 95%;
-    line-height: 1.6;
+    line-height: 1.5;
     text-align: center;
   }
 }
