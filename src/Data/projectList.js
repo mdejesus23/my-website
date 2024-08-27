@@ -16,6 +16,7 @@ const projectList = [
       { id: "css101", tech: "CSS", techImg: "/css.svg" },
       { id: "h101", tech: "HTML", techImg: "/html.svg" },
     ],
+    note: "It may take a moment for the initial load, as the application is hosted on a free tier of Render.com.",
     // videoDemo:
     //   "https://www.loom.com/share/24b8f9eb7d6f4a0f893e6293056aad2b?sid=3cb414ce-367d-4c39-9e6c-d02360e9ecb1",
   },

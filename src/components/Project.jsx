@@ -36,6 +36,7 @@ function Project() {
                 <img src={proj.imgSrc} alt={proj.name} />
               </div>
               <p className={styles.description}>{proj.description}</p>
+              {proj.note && <p>Note: {proj.note}</p>}
               <ProjectController
                 link={proj.link}
                 videoDemo={proj.videoDemo}
